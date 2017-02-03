@@ -1,0 +1,44 @@
+header{
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+	min-width:1345px;
+	min-height:150px;
+}
+nav{
+	background-color: #000000;
+	min-width: 201px;
+    min-height: 50px;
+    text-align: left;
+}
+body{
+	margin: 0;
+	background-image: url("fundo de tela.jpg");
+	background-image: url("fundo_capa_cinza_1.jpg"); 
+	background-color: rgba(203,157,30,0.12);
+	color: black;
+	font-family: 'Candara';
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 22px;
+    text-align: left;
+}
+li{
+	margin-bottom: 20px;
+	text-align: left;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:visited {
+    color: #FFFFFF;
+}
+a:hover {
+	text-shadow: 0px 0px 50px #5100FF;
+	color: #FFFFFF;
+}
+
+Rgb(245, 195, 22)    
