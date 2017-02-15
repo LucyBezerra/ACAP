@@ -1,41 +1,42 @@
 body{	
     color: black;
-    font-family: Source Sans Pro;
+    font-family: 'Dosis', sans-serif;
     background-color: rgba(203,157,30,0.12);
 }
 header{
 	background-color: rgba(34, 34, 34, 1); 
 	border-color:rgba(34, 34, 34, 0);
-	height: 100px;
+	min-height: 100px;
 }
 nav{
 	background-color: #000000;
-	height: 50px;
-	text-align: center;
+	height: 70px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	float: none;
 	border-top: 5px solid #E3A811;
 }
-nav ul{
-	list-style-type: none;
-	font-size: 22;
-	text-align: center;
-}
-nav ul li{
-	text-align: center;
+.nav{
 	float: left;
-	margin-left: 175px;
-	margin-right: auto;
+	text-align: center;
+	height: 30px;
+	width: 266px;
+	margin-top: 25px;
 }
 a{ 
 	text-decoration: none;
 	color: #F5C316;
 }
 a:hover{
-	border-bottom: 3px solid #F5C316;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #F5C316;
+	background-color: #F5C316;
     text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #ddb011;
 }
 #u25101_img{
 	opacity: 0.1;
