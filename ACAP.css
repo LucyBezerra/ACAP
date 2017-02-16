@@ -12,8 +12,6 @@ nav{
 	background-color: #000000;
 	height: 70px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	float: none;
 	border-top: 5px solid #E3A811;
 }
@@ -21,8 +19,15 @@ nav{
 	float: left;
 	text-align: center;
 	height: 30px;
-	width: 266px;
+	width: 250px;
 	margin-top: 25px;
+}
+#nav{
+	width: 80%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+height: auto;
 }
 a{ 
 	text-decoration: none;
