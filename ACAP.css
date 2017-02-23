@@ -1,4 +1,5 @@
 body{	
+	margin:0%;
     color: black;
     font-family: 'Dosis', sans-serif;
     background-color: rgba(203,158,25,0.14);
@@ -75,9 +76,10 @@ section{
 	margin-right: 20%;
 }
 footer{
-	background-color: rgba(21,21,21,1);
+	background-color: rgba(0, 0, 0, 0);
+	/*background-color: rgba(21,21,21,1);*/
 	/*background-color: #F5C316;*/
-	height: 200px;
+	height: 250px;
 }
 .top{
 	display:scroll;
@@ -92,4 +94,19 @@ a:hover.top: {
 	margin-top: 4%;
 	margin-right:33%;
 	margin-left:33%;
+}
+#rodape{
+	height: 10px;
+	background-color:#151515; 
+	border-top: 10px solid #F5C316;
+}
+#footerc{
+	margin-left: 7%;
+	margin-top: 3%;
+	width: 30%;
+}
+h1{
+	color: #151515;
+	font-size: 20px;
+	margin-left: 5%;
 }
