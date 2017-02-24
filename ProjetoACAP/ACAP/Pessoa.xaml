@@ -1,0 +1,34 @@
+﻿<Window x:Class="ACAP.Pessoa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACAP"
+        mc:Ignorable="d"
+        Title="Pessoa" Height="524.902" Width="422.39">
+    <Grid Margin="0,0,0,-21" HorizontalAlignment="Left" Width="414">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="201*"/>
+            <ColumnDefinition Width="91*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BTProximo" Content="Próximo" HorizontalAlignment="Left" Margin="272,199,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.5,0.5" Height="30" FontSize="14" Click="BTProximo_Click" Grid.ColumnSpan="2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.65"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="Nome" Content="Nome:" HorizontalAlignment="Left" Margin="30,28,0,0" VerticalAlignment="Top" Height="30" Width="110" FontSize="14"/>
+        <Label x:Name="Sobrenome" Content="Sobrenome:" HorizontalAlignment="Left" Margin="30,70,0,0" VerticalAlignment="Top" Height="30" Width="110" FontSize="14"/>
+        <Label x:Name="Email" Content="Email:" HorizontalAlignment="Left" Margin="30,114,0,0" VerticalAlignment="Top" Height="30" Width="110" FontSize="14"/>
+        <TextBox x:Name="TBNome" HorizontalAlignment="Left" Height="30" Margin="164,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="14" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="TBSobrenome" HorizontalAlignment="Left" Height="30" Margin="164,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="14" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="TBEmail" HorizontalAlignment="Left" Height="30" Margin="164,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" FontSize="14" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="CBAssociado" Content="Associado" HorizontalAlignment="Left" Margin="254,158,0,0" VerticalAlignment="Top" Height="30" Width="110" FontSize="14" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="30,254,0,0" VerticalAlignment="Top" Height="220" Width="350" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
