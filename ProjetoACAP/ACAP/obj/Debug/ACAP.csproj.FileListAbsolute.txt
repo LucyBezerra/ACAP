@@ -25,3 +25,6 @@ C:\Users\Casa\Documents\Visual Studio 2015\Projects\ProjetoACAP\ACAP\obj\Debug\A
 C:\Users\Casa\Documents\Visual Studio 2015\Projects\ProjetoACAP\ACAP\obj\Debug\ACAP.csproj.GenerateResource.Cache
 C:\Users\Casa\Documents\Visual Studio 2015\Projects\ProjetoACAP\ACAP\obj\Debug\ACAP.exe
 C:\Users\Casa\Documents\Visual Studio 2015\Projects\ProjetoACAP\ACAP\obj\Debug\ACAP.pdb
+C:\Users\20141034010168\Desktop\Projeto Autoria Web\ACAP\ProjetoACAP\ACAP\bin\Debug\ACAP.exe.config
+C:\Users\20141034010168\Desktop\Projeto Autoria Web\ACAP\ProjetoACAP\ACAP\obj\Debug\ACAP.exe
+C:\Users\20141034010168\Desktop\Projeto Autoria Web\ACAP\ProjetoACAP\ACAP\obj\Debug\ACAP.pdb

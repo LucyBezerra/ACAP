@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">	
-	<title>ACAP - Associação Cerrocoarence de Apicultura</title>
+	<title>ACAP - Associação Cerrocoarence de Apicultura&nbsp&nbsp&nbsp&nbsp&nbsp</title>
 	<link rel="stylesheet" type="text/css" href="ACAP.css">
-	<link rel="icon" type="ico" href="">
+	<link rel="icon" type="ico" href="favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Dosis:500,700|Sansita" rel="stylesheet">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="ACAP.js"></script>
@@ -40,9 +40,11 @@
 <div id="rodape"> </div>
 
 <footer>
+<div id="footer"> 
+</div>
 
 <div id="footerc">
-	<h1>Contato</h1>
+	<h1 id="cont">Contato</h1>
 	<p>Comunidade de Sítio Novo, S/N.</p>
 	<p>Bairro: Zona Rural</p>
 	<p>Município: Cerro Cora</p>
@@ -50,8 +52,21 @@
 	<p>Cep: 59395-000</p>
 </div>
 
-<div id="footer">
-	
+<div id="footerm">
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+	<div style='overflow:hidden;height:210px;width:350px;'>
+	<div id='gmap_canvas' style='height:210px;width:400px;'></div>
+	<div><small><a href="http://embedgooglemaps.com"></a></small></div>
+	<div><small><a href="http://proxysitereviews.com/instantproxies/"></a></small></div>
+	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+	<script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(-5.989630319836868,-36.322816197314474),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-5.989630319836868,-36.322816197314474)});infowindow = new google.maps.InfoWindow({content:'<strong>ACAP</strong><br>Cerro Corá, Brasil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</div>
+
+<div id="footera">
+	<h1>Parcerias</h1>
+
+	<img src="Imagens/CAMPUS CURRAIS NOVOS.png" width="170" height="200" id="if">
+	<a href="http://www.semabelhasemalimento.com.br/"><img src="Imagens/semabelhasemalimento.png" height="200" id="sabelha"></a>
 </div>
 
 </footer>
