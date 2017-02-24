@@ -102,11 +102,38 @@ a:hover.top: {
 }
 #footerc{
 	margin-left: 7%;
-	margin-top: 3%;
-	width: 30%;
+	width: 20%;
+	float: left;
+	/*border: 2px solid #000;*/
 }
-h1{
+#cont{
+	margin: 0%;
 	color: #151515;
 	font-size: 20px;
 	margin-left: 5%;
+}
+h1{
+	margin: 0%;
+	color: #151515;
+	font-size: 20px;
+	margin-left: 5%;
+}
+#footerm{
+	float: left;
+}
+#footera{
+	/*border: 2px solid #000;*/
+	margin-left: 50%;
+	margin-bottom: 3%;
+}
+#if{
+	margin-left: 25%;
+}
+#sabelha{
+	margin-left: 15%;
+}
+#footer{
+	background-image: url("Imagens/footer.png");
+	background-image: repeat;
+	height: 39%;
 }
