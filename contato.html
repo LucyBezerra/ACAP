@@ -14,7 +14,7 @@
 <div><img id="u25101_img" src="Imagens/fundo_capa-crop-u25101.png" width="272" height="371"></div>
 <div><img id="u25078_img" src="Imagens/fundo_capa.png" width="575" height="371"></div>
 
-<a class="top" href="#">
+<a class="top" href="javascript:;" title="Voltar ao topo!">
 	<img src="Imagens/top.gif" alt="Bee" height="80" width="55">
 </a>
 
@@ -33,31 +33,27 @@
 	</div>
 </nav>
 <section>
-		<center>
+	<article>
 			<form>
-			<fieldset>
-			
 			Nome:
 				<br>
-			<input type="text" name="nome">
+			<input type="text" name="nome" required class="input">
+				<br><br>
+			Telefone para contato:
 				<br>
-			Telefones para contato:
-				<br>
-			<input type="text" name="telefones">
-				<br>
+			<input type="text" name="telefones" required class="input" pattern="^\d{5}-\d{4}$" title="9xxxx-xxxx">
+				<br><br>
 			Email:
 				<br>
-			<input type="text" name="email">
-			<br>
+			<input type="text" name="email" required class="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="caracters@caracters.com">
+				<br><br>
 			Mensagem:
 			<br>
-			<textarea rows="4" cols="40"> </textarea>
-			<br>
-			<input type="submit" name="submit" value="Enviar">
-
-			</fieldset>
+			<textarea rows="10" cols="60"></textarea>
+				<br><br>
+			<input type="submit" name="submit" value="Enviar" id="value">
 		</form>
-		</center>
+	</article>
 		
 </section>
 
