@@ -1,9 +1,9 @@
 $(function() {
-		$(".top").click(function() {
-		  $("body").animate({ scrollTop: 0 }, "slow");
-		  return false;
-		});
-	});
+        $(".top").click(function() {
+          $("body").animate({ scrollTop: 0 }, "slow");
+          return false;
+        });
+    });
     
     var repeat=1 
     var title=document.title
@@ -24,3 +24,9 @@ $(function() {
     }
     if (document.title)
     titlemove()
+
+$(document).ready(function(){
+            $('.bxslider').bxSlider({
+                infiniteLoop: true
+            });
+        });
