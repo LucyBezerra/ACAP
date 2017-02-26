@@ -81,8 +81,6 @@ section{
 }
 footer{
 	background-color: rgba(0, 0, 0, 0);
-	/*background-color: rgba(21,21,21,1);*/
-	/*background-color: #F5C316;*/
 	height: 250px;
 }
 .top{
@@ -108,7 +106,6 @@ a:hover.top: {
 	margin-left: 5%;
 	width: 20%;
 	float: left;
-	/*border: 2px solid #000;*/
 }
 #cont{
 	margin: 0%;
@@ -128,7 +125,6 @@ h1{
 	float: left;
 }
 #footera{
-	/*border: 2px solid #000;*/
 	margin-left: 50%;
 	margin-bottom: 3%;
 }
