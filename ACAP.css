@@ -196,15 +196,17 @@ ul,li{
 	width: 400px;
 	margin-left: 18%;
 	position: absolute;
+	margin-top: 5%;
 }
 #diskmel{
 	margin-top: 5%;
 	margin-left: 35%;
 	z-index: 0;
 	width: 300px;
+	margin-top: 11%;
 }
 #email{
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-left: 33%;
 	z-index: 0;
 	width: 330px;
@@ -225,4 +227,10 @@ ul,li{
 }
 #sabelhas{
 	margin-bottom: 3%;
+}
+#ref{
+	color: #513f00;
+}
+a:hoover#ref{
+	text-decoration: none;
 }
